@@ -11,7 +11,7 @@
 
 	<groupId>net.finmath</groupId>
 	<artifactId>finmath-lib-kotlin</artifactId>
-	<version>5.0.3-SNAPSHOT</version>
+	<version>5.0.3</version>
 	<inceptionYear>2020</inceptionYear>
 
 	<name>finmath lib kotlin</name>
@@ -95,12 +95,6 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.specs</groupId>
-			<artifactId>specs</artifactId>
-			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
