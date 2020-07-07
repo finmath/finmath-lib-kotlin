@@ -1,4 +1,4 @@
-finmath lib scala extensions Release Notes
+finmath lib kotlin Release Notes
 ==========
 
 ****************************************
