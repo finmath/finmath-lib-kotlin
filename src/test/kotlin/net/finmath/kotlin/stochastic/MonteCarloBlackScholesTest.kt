@@ -1,4 +1,4 @@
-package net.finmath.scala.stochastic
+package net.finmath.kotlin.stochastic
 
 import net.finmath.functions.AnalyticFormulas
 import net.finmath.kotlin.stochastic.*
@@ -32,8 +32,7 @@ class MonteCarloBlackScholesTest {
     private val volatility = 0.20
 
     @Test
-    fun testValuation(): Unit
-    {
+    fun testValuation() {
         val value = getOptionValueUsingRandomVariables()
 
         val valueAnalytic = AnalyticFormulas.blackScholesOptionValue(initialValue, riskFreeRate, volatility, optionMaturity, strike)
