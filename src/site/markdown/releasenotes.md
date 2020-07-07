@@ -6,6 +6,15 @@ finmath lib kotlin Release Notes
 # Release Notes
 
 
+## 5.0.3 (07.07.2020)
+
+Referencing finmath-lib 5.0.5.
+
+### RandomVariable
+
+- Method aliases for `variance` and `covariance`.
+
+
 ## 5.0.2 (19.06.2020)
 
 Referencing finmath-lib 5.0.2.
