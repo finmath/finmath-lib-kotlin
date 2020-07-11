@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - oraclejdk11
+sudo: required 
+dist: trusty
+script: "mvn test -B -V -P ${MVN_PROFILE}"
