@@ -1,4 +1,4 @@
-package net.finmath.kotlin.stochastic
+package net.finmath.montecarlo
 
 import net.finmath.functions.AnalyticFormulas
 import net.finmath.kotlin.stochastic.*
