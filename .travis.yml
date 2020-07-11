@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - oraclejdk11
+  - oraclejdk8
 sudo: required 
 dist: trusty
 script: "mvn test -B -V"
