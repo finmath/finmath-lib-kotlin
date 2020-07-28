@@ -10,9 +10,7 @@ class RandomVariableAliases {
  * @param value The value to add.
  */
 operator fun RandomVariable.plus(value : Double) = this.add(value)
-
 operator fun RandomVariable.minus(value : Double) = this.sub(value)
-
 operator fun RandomVariable.times(value : Double) = this.mult(value)
 
 operator fun Number.plus(value: RandomVariable): RandomVariable = value.add(this.toDouble())
