@@ -11,7 +11,7 @@
 
 	<groupId>net.finmath</groupId>
 	<artifactId>finmath-lib-kotlin</artifactId>
-	<version>5.0.5</version>
+	<version>5.0.5-SNAPSHOT</version>
 	<inceptionYear>2020</inceptionYear>
 
 	<name>finmath lib kotlin</name>
