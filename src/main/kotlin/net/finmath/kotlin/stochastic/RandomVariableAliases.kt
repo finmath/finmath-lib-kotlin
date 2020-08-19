@@ -26,7 +26,12 @@ fun exp(value: RandomVariable): RandomVariable = value.exp()
 fun log(value: RandomVariable): RandomVariable = value.log()
 fun squared(value: RandomVariable): RandomVariable = value.squared()
 fun sqrt(value: RandomVariable): RandomVariable = value.sqrt()
-fun max(value: RandomVariable, value2 : Double): RandomVariable = value.floor(value2)
 fun expectation(value: RandomVariable): RandomVariable = value.average()
 fun variance(value: RandomVariable) : RandomVariable = value.sub(value.average()).squared().average()
 fun covariance(x: RandomVariable, y: RandomVariable): RandomVariable = x.covariance(y)
+
+fun max(value: RandomVariable, value2 : RandomVariable): RandomVariable = value.floor(value2)
+fun min(value: RandomVariable, value2 : RandomVariable): RandomVariable = value.cap(value2)
+
+fun max(value: RandomVariable, value2 : Double): RandomVariable = value.floor(value2)
+fun min(value: RandomVariable, value2 : Double): RandomVariable = value.cap(value2)
