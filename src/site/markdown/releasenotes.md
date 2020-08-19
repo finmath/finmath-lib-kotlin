@@ -5,6 +5,13 @@ finmath lib kotlin Release Notes
 
 # Release Notes
 
+## 5.0.5 (16.08.2020)
+
+### General
+
+- Referencing finmath-lib 5.0.5.
+
+
 ## 5.0.4 (28.07.2020)
 
 ### General
